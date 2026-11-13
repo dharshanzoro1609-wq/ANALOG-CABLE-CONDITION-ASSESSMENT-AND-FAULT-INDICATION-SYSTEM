@@ -1,0 +1,51 @@
+
+# ANALOG CABLE CONDITION ASSESSMENT AND FAULT INDICATION SYSTEM
+
+## Project Overview
+This project is designed to assess cable conditions and indicate faults using an analog electronic circuit based on the LM358 operational amplifier.
+
+The system uses voltage sensing and comparator circuits to identify abnormal cable conditions and provide visual indications through LEDs.
+
+## Main Components
+- LM358 Operational Amplifier
+- Resistors
+- Capacitors
+- LEDs
+- Potentiometer
+- DC Power Supply
+- Test Cable
+
+## Working Principle
+1. A low-voltage test signal is applied to an isolated cable.
+2. The sensing circuit measures the cable response.
+3. The LM358 processes the analog signal.
+4. The comparator section checks the signal against a reference voltage.
+5. LEDs indicate the detected cable condition.
+
+## Fault Indications
+- Green LED - Normal Condition
+- Red LED - Fault Condition
+- Yellow LED - Abnormal Condition
+
+## Technologies
+- Analog Electronics
+- LM358 Operational Amplifier
+- Voltage Sensing
+- Comparator Circuit
+
+## Applications
+- Cable condition monitoring
+- Electrical maintenance
+- Basic cable fault identification
+- Educational electronics projects
+
+## Project Type
+Analog Electronics Project
+
+## Controller
+LM358 Operational Amplifier
+
+No Arduino or ESP32 is used.
+
+## Safety
+Use only an isolated, current-limited low-voltage test supply. Never connect the prototype directly to mains electricity.
